@@ -1,0 +1,174 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    min-height: 100px;
+}
+
+.header, .section-hero, .footer {
+    background-color: #1F2937;
+}
+
+.section-hero {
+    padding: 100px 200px;
+}
+
+.inspiring-quote {
+    padding: 50px 250px;
+    background-color: #e5e7eb;
+    font-family: light italic;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.autor {
+    text-align: right;
+    font-weight: bold;
+}
+
+.container-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+.hero-text h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text p{
+    margin: 8px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.hero-image {
+    margin: 0 16px;
+    min-height: 250px;
+    min-width: 400px;
+    background-color: #b3b5b9;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 32px;
+}
+
+.inspiring-slots-container {
+    display: flex;
+    gap: 32px;
+}
+
+.inspiring-slot {
+    max-width: 125px;
+}
+.inspiring-slot img {
+    width: 124px;
+    height: 124px;
+    border: 2px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.inspiring-slot p {
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.call-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.call-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+}
+
+.call-box h2 {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.call-box p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+}
+
+.call-box div {
+    margin: 16px 64px;
+}
+
+.call-box button {
+    margin-right: 64px;
+    padding: 6px 32px;
+    border-color:white;
+    border-style: solid;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 24px;
+    margin: 16px 0;
+    border-radius: 8px;
+}
